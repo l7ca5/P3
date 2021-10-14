@@ -1,0 +1,20 @@
+n=int(input("nombre de lettres :"))
+
+z=0
+u=0
+
+for i in range (n) :
+    s=int(input("lettres :"))
+    if s==0 :
+        z+=1
+    elif s==1 :
+        u+=1
+    else :
+        print ("erreur")
+
+if z>u :
+    print ("majoritaire : zéro")
+elif z<u :
+    print ("majoritaire : un")
+else :
+    print ("X")
