@@ -1,0 +1,13 @@
+a=int(input("boule 1 :"))
+if a>10 :
+    print ("!")
+elif a==10 :
+    print ("X")
+else :
+    b=int(input("boule 2 :"))
+    if a+b>10 :
+        print ("!")
+    elif a+b==10 :
+        print ("/")
+    else :
+        print(a+b)
