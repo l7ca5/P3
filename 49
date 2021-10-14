@@ -1,0 +1,10 @@
+a=int(input("a :"))
+b=int(input("b :"))
+c=int(input("c :"))
+
+if c<b and c<a :
+    print (" Plus petit ")
+elif c>b and c>a :
+    print ("Plus grand ")
+else :
+    print (" Entre les deux ")
