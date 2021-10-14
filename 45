@@ -1,0 +1,18 @@
+ax=int(input("abscisse de a:"))
+ay=int(input("ordonnée de a:"))
+
+bx=int(input("abscisse de b:"))
+by=int(input("ordonnée de b:"))
+
+cx=int(input("abscisse de c:"))
+cy=int(input("ordonnée de c:"))
+
+a=bx-ax
+b=by-ay
+c=cx-ax
+d=cy-ay
+
+if a*d-b*c==0:
+    print ("aligné")
+else :
+    print ("non aligné")
