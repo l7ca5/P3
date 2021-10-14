@@ -1,0 +1,10 @@
+a=int(input("boule 1 :"))
+b=int(input("boule 2 :"))
+
+if a==10 :
+    print ("X")
+
+elif a+b==10 :
+    print ("/")
+else :
+    print(a+b)
