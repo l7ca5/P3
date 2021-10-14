@@ -1,0 +1,15 @@
+a=int(input("longueur a :"))
+b=int(input("longueur b :"))
+c=int(input("longueur c :"))
+
+if a>b+c :
+    print ("erreur")
+else :
+    if a==b==c :
+        print ("équilatéral")
+    elif a==b or b==c :
+        print ("isocéle")
+    elif a**2==b**2+c**2 :
+        print ("rectangle")
+    else :
+        print ("scalaire")
