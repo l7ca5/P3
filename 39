@@ -1,18 +1,18 @@
-n=int(input("nombre de tours"))
-for i in range (n):
+n=int(input("nombre de tours :"))
+nb_zéros=0
+for i in range (n) :
     
     score = int ( input (" Entrer le score :") )
-    gain = int ( input (" entrer le gain :") )
-    nb_zeros=0
+    gain = int ( input (" entrer le gain : " ) )
     nouveau_score = score + gain
-    if gain==0:
-        nb_zeros+=1
-        if nb_zeros==3:
+    if gain==0 :
+        nb_zéros+=1
+        if nb_zéros==3 :
             print("perdu")
-    if nouveau_score < 51:
+    if nouveau_score < 51 :
         print (" Nouveau score :", nouveau_score )
-    elif nouveau_score == 51:
-        print (" Gagne !")
+    elif nouveau_score == 51 :
+        print (" Gagné ! ")
     else :
         nouveau_score = 25
         print (" Trop grand ! Nouveau score : 25")
