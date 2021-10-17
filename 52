@@ -1,0 +1,18 @@
+a=int(input("entier 1 :"))
+b=int(input("entier 2 :"))
+c=int(input("entier 3 :"))
+
+if a>b>c or a>b and c==b :
+    print (a, b, c)
+elif a>c>b :
+    print (a, b, c)
+elif b>a>c or b>a and a==c :
+    print (b, a, c)
+elif b>c>a :
+    print (b, a, c)
+elif c>a>b or c>b and b==a :
+    print (c, a, b)
+elif c>b>a :
+    print (c, b, a)
+else :
+    print ("les nombres sont égaux")
