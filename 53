@@ -1,0 +1,12 @@
+a=int(input("a :"))
+b=int(input("b :"))
+c=int(input("c :"))
+
+d=b**2-4*a*c
+
+if d>0 :
+    print (" les solutions de l'équation sont :",(-b-pow(d,O,5))/(2*a) ,(-b+pow(d,O,5))/(2*a) )
+elif d=0 :
+    print ("l'unique solution de l'équation est :",-b/(2*a) )
+else :
+    print ("l'équation n'a pas de solution")
